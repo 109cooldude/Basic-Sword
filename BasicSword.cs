@@ -32,6 +32,6 @@ namespace ElysiumMod.Items.Weapons.PreBoss
 			item.autoReuse = true; 
 			item.crit = 6; 
 			item.useStyle = ItemUseStyleID.SwingThrow;
-		}
+	}
     }
 }
