@@ -19,19 +19,19 @@ namespace ElysiumMod.Items.Weapons.PreBoss
 
         public override void SetDefaults()
         {
-			item.damage = 50; 
-			item.melee = true; 
-			item.width = 40; 
-			item.height = 40; 
-			item.useTime = 20; 
-			item.useAnimation = 20; 
-			item.knockBack = 6; 
-			item.value = Item.buyPrice(gold: 1); 
-			item.rare = ItemRarityID.Green; 
-			item.UseSound = SoundID.Item1; 
-			item.autoReuse = true; 
-			item.crit = 6; 
-			item.useStyle = ItemUseStyleID.SwingThrow;
+	    item.damage = 50; 
+	    item.melee = true; 
+	    item.width = 40; 
+	    item.height = 40; 
+	    item.useTime = 20; 
+	    item.useAnimation = 20; 
+	    item.knockBack = 6; 
+       	    item.value = Item.buyPrice(gold: 1); 
+	    item.rare = ItemRarityID.Green; 
+            item.UseSound = SoundID.Item1; 
+	    item.autoReuse = true; 
+            item.crit = 6; 
+	    item.useStyle = ItemUseStyleID.SwingThrow;
 	}
     }
 }
