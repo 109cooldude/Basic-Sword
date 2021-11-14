@@ -54,6 +54,8 @@ namespace ElysiumMod.Items.Projectiles.PreBoss
             }
 
             Dust.NewDust(projectile.position, projectile.width, projectile.height, DustID.Fire, 0, 0, 0, default, scale);
+            
+            projectile.rotation += 0.4f * (float)projectile.direction;
         }
 
         public override void Kill(int timeLeft)
