@@ -32,6 +32,8 @@ namespace ElysiumMod.Items.Weapons.PreBoss
 	    item.autoReuse = true; 
             item.crit = 6; 
 	    item.useStyle = ItemUseStyleID.SwingThrow;
+	    item.shoot = mod.ProjectileType("BasicProjectile");
+	    item.shootSpeed = 10f;
 	}
 	
 	public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
